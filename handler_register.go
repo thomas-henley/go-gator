@@ -29,6 +29,6 @@ func handlerRegister(s *state, cmd command) error {
 
 	s.cfg.SetUser(name)
 
-	fmt.Printf("User \"%s\" has been created", user.Name)
+	fmt.Printf("User \"%s\" has been created\n", user.Name)
 	return nil
 }
